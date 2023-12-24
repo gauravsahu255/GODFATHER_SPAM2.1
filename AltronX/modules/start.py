@@ -8,11 +8,11 @@ PythonButton = [
         Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
         ],
         [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/THE_INCRICIBLE"),
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/INCRICIBLE")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/anime_x_god"),
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/anime_x_god_group")
         ],
         [
-        Button.url("• ʀᴇᴘᴏ •", "https://t.me/The_Incricible/24")
+        Button.url("• ʀᴇᴘᴏ •", "https://t.me/Andi_mandi_sandi_tu_hai_randi/13")
         ]
         ]
 
@@ -34,11 +34,11 @@ async def start(event):
         BotName = AltBot.first_name
         BotId = AltBot.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{BotName}](tg://user?id={BotId})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [ʟᴇɢᴇɴᴅ](https://t.me/YOUR_GODFATHER_XD)**\n\n"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [ʟᴇɢᴇɴᴅ](https://t.me/anime_fan_owner)**\n\n"
         TEXT += f"» **ʙᴏᴛ ꜱᴘᴀᴍ ᴠᴇʀsɪᴏɴ :** `M3.2`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{telethon.__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                 event.chat_id,
-                "https://telegra.ph/file/71140aa351def22606450.jpg",
+                "https://telegra.ph/file/db8cfa5dc9135eba45cdb.jpg",
                 caption=TEXT, 
                 buttons=PythonButton)
